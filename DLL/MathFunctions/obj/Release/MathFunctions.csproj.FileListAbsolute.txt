@@ -1,0 +1,5 @@
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\bin\Release\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\bin\Release\MathFunctions.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\obj\Release\MathFunctions.csprojResolveAssemblyReference.cache
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\obj\Release\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\obj\Release\MathFunctions.pdb

@@ -1,0 +1,8 @@
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Debug\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Debug\MathFunctions.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

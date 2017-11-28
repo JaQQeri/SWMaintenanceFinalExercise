@@ -1,0 +1,4 @@
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\bin\Debug\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\bin\Debug\MathFunctions.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\obj\Debug\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\DLL\MathFunctions\obj\Debug\MathFunctions.pdb
