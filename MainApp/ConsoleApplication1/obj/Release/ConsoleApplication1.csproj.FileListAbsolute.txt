@@ -1,1 +1,7 @@
 C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Release\MathFunctions.dll
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\bin\Release\MathFunctions.pdb
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\obj\Release\ConsoleApplication1.exe
+C:\Users\jaqqe\Documents\git\SWMaintenanceFinalExercise\MainApp\ConsoleApplication1\obj\Release\ConsoleApplication1.pdb

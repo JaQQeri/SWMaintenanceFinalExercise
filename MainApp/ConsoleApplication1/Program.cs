@@ -17,6 +17,9 @@ namespace MainApplication
             if (args.Length == 0)
             {
                 Console.WriteLine("No command line arguments specified!");
+                Console.WriteLine(".. Press any key to continue ..");
+                Console.ReadLine();
+                return;
             }
             else
             {
@@ -25,7 +28,7 @@ namespace MainApplication
                 else Registry.SetValue(Constants.RegistryKey, Constants.GivenIntegerValue, runCount);
 
                 if (runCount == 0) Console.WriteLine("This is your first time running this application.");
-                else Console.WriteLine("This program has been ran " + runCount + " times before.");
+                else Console.WriteLine("This program has been ran " + (runCount == 1 ? "once before." : runCount + " times before."));
 
                 MathFunctions.Class1 mathOperations = new MathFunctions.Class1();
                 string input = "";
@@ -39,7 +42,7 @@ namespace MainApplication
                         input = Console.ReadLine();
                         while (!mathOperations.IsInputValidDouble(input))
                         {
-                            Console.WriteLine("Invalid input!");
+                            Console.WriteLine("Invalid input! Please try again.");
                             input = Console.ReadLine();
                         }
 
@@ -48,7 +51,7 @@ namespace MainApplication
                         input = Console.ReadLine();
                         while (!mathOperations.IsInputValidDouble(input))
                         {
-                            Console.WriteLine("Invalid input!");
+                            Console.WriteLine("Invalid input! Please try again.");
                             input = Console.ReadLine();
                         }
 
@@ -63,7 +66,7 @@ namespace MainApplication
                         input = Console.ReadLine();
                         while (!mathOperations.IsInputValidDouble(input))
                         {
-                            Console.WriteLine("Invalid input!");
+                            Console.WriteLine("Invalid input! Please try again.");
                             input = Console.ReadLine();
                         }
 
@@ -73,7 +76,7 @@ namespace MainApplication
                         input = Console.ReadLine();
                         while (!mathOperations.IsInputValidDouble(input))
                         {
-                            Console.WriteLine("Invalid input!");
+                            Console.WriteLine("Invalid input! Please try again.");
                             input = Console.ReadLine();
                         }
                         width = Convert.ToDouble(input);
@@ -82,7 +85,7 @@ namespace MainApplication
                         input = Console.ReadLine();
                         while (!mathOperations.IsInputValidDouble(input))
                         {
-                            Console.WriteLine("Invalid input!");
+                            Console.WriteLine("Invalid input! Please try again.");
                             input = Console.ReadLine();
                         }
                         depth = Convert.ToDouble(input);
@@ -92,10 +95,9 @@ namespace MainApplication
 
                     case "-h":
 
-                        Console.WriteLine("-a : Calculate area of given measurements");
-                        Console.WriteLine("-b : Calculate capacity of given measurements");
-                        Console.WriteLine("-c : Write a given integer to registry");
-                        Console.WriteLine("-d : Read a written integer from registry");
+                        Console.WriteLine("-a : Calculate area of given measurements.");
+                        Console.WriteLine("-b : Calculate capacity of given measurements.");
+                        Console.WriteLine("-h : Print out all available arguments.");
                         break;
 
                     default:
@@ -106,6 +108,7 @@ namespace MainApplication
             }
             Console.WriteLine("Finished. Updating run count to registry ..");
             Registry.SetValue(Constants.RegistryKey, Constants.GivenIntegerValue, runCount + 1);
+            Console.WriteLine(".. Press any key to continue ..");
             Console.ReadLine();
         }
     }
